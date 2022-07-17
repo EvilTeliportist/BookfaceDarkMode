@@ -1,0 +1,183 @@
+html {
+    --dark-background: #111111;
+    --dark1: #222222;
+    --dark2: #333333;
+    --dark3: #444444;
+    --dark-text: #cccccc;
+}
+
+body {
+    background-color: var(--dark-background) !important;
+    color: var(--dark-text) !important;
+}
+
+.shared-markdown-editor {
+    background-color: var(--dark1) !important;
+    border-color: var(--dark1) !important;
+    color: var(--dark-text) !important;
+}
+
+.shared-editor-menu,
+.shared-markdown-editor-footer,
+.shared-editor-menu-select,
+.new-post-button,
+*[class*="DashboardPage-module__box__"],
+*[class*="DashboardPage-module__checklist"],
+#modal-body,
+.modal-header,
+.modal-title,
+.modal-body,
+.modal-content,
+.form-control,
+#bookface-search-input,
+div[class*="styles-module__searchBox"] > input,
+.search-box,
+.new-profile-item,
+.search-sidebar,
+.search-sidebar > div[class*="control"] {
+    background-color: var(--dark1) !important;
+    color: var(--dark-text) !important;
+    border-color: var(--dark-background) !important;
+}
+
+.new-profile-item:hover {
+    background-color: var(--dark2) !important;
+}
+
+.new-post-button span,
+.title-input {
+    color: var(--dark-text) !important;
+}
+
+.forum-page .new-post-row {
+    background-color: var(--dark-background) !important;
+    border-color: var(--dark-background) !important;
+    color: var(--dark-text) !important;
+}
+
+strong {
+    color: white !important;
+}
+
+.hovercard::before,
+.hovercard *::before {
+    background: linear-gradient(
+        180deg,
+        rgba(246, 246, 239, 0) 3em,
+        var(--dark-background)
+    ) !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: var(--dark1) !important;
+    color: var(--dark-text) !important;
+}
+
+div[class^="ArticlePage-module__articleBody"],
+div[class^="ArticlePage-module__bodyContainer"] > *:is(h1, h2, h3, h4, h5, h6),
+div[class^="ArticlePage-module__nextSection"],
+div[class^="ArticlePage-module__menuTitle"],
+span[class^="styles-module__label"],
+div[class^="styles-module__facet"] > *,
+div[class^="ProductComments-module__dealCommentBody"],
+div[class^="styles-module__dealPill"],
+.new-profile-item > *,
+.help-block,
+div[class^="profile"] {
+    color: var(--dark-text) !important;
+}
+
+div[class^="ArticlePage-module__menuTitle"]:hover {
+    background-color: var(--dark2) !important;
+}
+
+#bookface-shared-search-container,
+.list-header {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.hit-block-label,
+.hit-block-table,
+#bookface-search-hover-col-inner,
+#forum-quicklink,
+#bookface-shared-search-footer {
+    background-color: var(--dark-background) !important;
+}
+
+a[class^="styles-module__companyBrowser"],
+a[class^="styles-module__company"],
+div[class^="styles-module__searchBox"],
+div[class^="styles-module__section"],
+a[class^="styles-module__companyBrowser"] > *,
+a[class^="styles-module__company"] > *,
+div[class^="styles-module__dealInfoColumn"],
+div[class^="styles-module__deals"],
+div[class^="styles-module__deal"],
+a[class^="styles-module__deal"] {
+    background-color: var(--dark1) !important;
+    color: var(--dark-text);
+}
+
+a[class^="styles-module__companyBrowser"],
+a[class^="styles-module__company"],
+div[class^="styles-module__results"],
+div[class^="styles-module__section"] {
+    border-color: var(--dark2) !important;
+}
+
+span[class^="pill styles-module__pill"],
+span[class^="styles-module__count"],
+span .pill {
+    background-color: var(--dark3) !important;
+    color: white !important;
+}
+
+.user_info {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.btn-default {
+    background-color: var(--dark3) !important;
+    color: var(--dark-text) !important;
+    border-color: var(--dark2) !important;
+}
+
+.drawline,
+.user-history-single {
+    border-color: var(--dark1) !important;
+}
+
+.tt-suggestion {
+    background-color: var(--dark3) !important;
+    color: var(--dark-text) !important;
+}
+
+div[class^="SharedDealDirectory-module__modalContents"],
+div[class^="SharedDealDirectory-module__dealUseModule"],
+div[class^="CommentComposer-module__commentComposer"] {
+    background-color: var(--dark1) !important;
+    color: var(--dark-text);
+}
+
+div[class^="CommentComposer-module__commentComposer"] > textarea {
+    background-color: var(--dark2) !important;
+    color: var(--dark-text) !important;
+}
+
+div[class^="styles-module__fade"] {
+    background-image: linear-gradient(
+        180deg,
+        rgba(253, 253, 248, 0),
+        rgba(34, 34, 34, 0.98)
+    ) !important;
+}
+
+.jobs-review a.profile-container:hover,
+.jobs-review a.profile-container:focus,
+.jobs-review a.profile-container:active {
+    background-color: var(--dark3) !important;
+}
+
+.alert {
+    color: black;
+}
